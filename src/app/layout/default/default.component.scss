@@ -1,0 +1,205 @@
+* {
+    font-family: 'Lato';
+    overflow: hidden;
+}
+
+.navbar {
+    transition: all 0.4s;
+}
+.navbar .nav-link {
+    color: white;
+    a{
+        font-size: 1.4rem;
+    }
+}
+.nav-item {
+    a:hover {
+        background: #ffffff;
+        color: #2B32B2;
+    }
+}
+.navbar-brand {
+    color: #ffffff;
+    font-size: 1.9em;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+}
+
+/* Change navbar styling on scroll */
+.navbar {
+    background: #1488CC;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #2B32B2, #1488CC);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #2B32B2, #1488CC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-toggler{
+    color: #ffffff;
+    .iconify{
+        font-size: 2.4em;
+    }
+}
+/* Change navbar styling on small viewports */
+@media (max-width: 991.98px) {
+    .navbar {
+        background: #1488CC;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to left, #2B32B2, #1488CC);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to left, #2B32B2, #1488CC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    }
+}
+.header-text{
+    position: absolute;
+    top: 40%;
+    left: 0%;
+    width: 96.66666666666666%;
+    color: #fff;
+    .carousel-text{
+        font-size: 2em;
+        font-weight: 500;
+    }
+}
+.text-form{
+    position: absolute;
+    top: 40%;
+    .card{
+        .form-name{
+            font-size: 1.4em;
+            font-weight: 500;
+        }
+        color: #ffffff;
+        background: #1488CC;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to left, #2B32B2, #1488CC);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to left, #2B32B2, #1488CC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    }
+}
+
+.carousel-image{
+    height: 57em;
+}
+
+
+#about {
+    .about-container {
+        padding-bottom: 4em;
+        max-width: 80em !important;
+
+        .about-header {
+            padding: 1em 0;
+        }
+
+        .about-text {
+            font-size: 1em;
+        }
+    }
+}
+
+#product {
+    background: #1488CC;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #2B32B2, #1488CC);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #2B32B2, #1488CC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding-bottom: 5em;
+    .product{
+        .product-header{
+            color: #ffffff;
+            padding: 1em 0;
+        }
+        .card-header{
+            font-size: 1.2em;
+            text-align: center;
+        }
+        .card-body {
+            font-size: 1em;
+        }
+    }
+}
+
+#feature {
+    .features-header {
+        padding: 1em 0 0.5em 0;
+    }
+    .card-text {
+        text-align: center;
+        font-size: 1em;
+    }
+}
+
+#platform {
+    background: #1488CC;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #2B32B2, #1488CC);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #2B32B2, #1488CC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    .platform{
+        .platform-header{
+            color: #ffffff;
+            padding: 1em 0;
+        }
+        .card-header{
+            text-align: center;
+        }
+        .card-body{
+            text-align: center;
+            font-size: 1.6em;
+            font-weight: 500;
+        }
+    }
+}
+
+.blog{
+    .blog-header{
+        padding-top: 1em;
+    }
+    .list-group-item {
+        cursor: pointer;
+    }
+}
+.footer{
+    background: #1488CC;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #2B32B2, #1488CC);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #2B32B2, #1488CC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+    font-size: large;
+
+    .row {
+        padding: 0.5em 0;
+    }
+}
+.modal.show{
+    display: block;
+}
+.main-content {
+    input {
+      border: none;
+      display: block;
+      width: 100%;
+      height: 50px;
+      margin: 15px 0;
+      font-size: 18px;
+      color: #999;
+      &::placeholder {
+        color: #999;
+        font-size: 18px;
+        font-weight: 300;
+      }
+      &:focus {
+        outline: none;
+      }
+    }
+    .line {
+      width: 100%;
+      height: 2px;
+      background-color: #99999955;
+    }
+    button {
+      background: linear-gradient(to right,#537ADF, #1FCBF6);
+      border: none;
+      border-radius: 50px;
+      font-size: 18px;
+      font-weight: 300;
+      color: #fff;
+      display: block;
+      width: 100px;
+      height: 40px;
+      margin: 0 auto;
+      outline: none;
+      cursor: pointer;
+    }
+  }
