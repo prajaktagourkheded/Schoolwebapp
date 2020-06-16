@@ -1,36 +1,43 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:600&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://kit.fontawesome.com/a81368914c.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
   </head>
   <body>
-    <section class="container">
-      <section class="wrapper">
-        <header>
-          <div style="text-align: center; padding: 20px;">
-            <img src="../../../assets/login.svg" alt="Login" width="30%" />
+    <img class="wave" src="../../../assets/wave.svg" />
+    <div class="container">
+      <div class="img">
+        <img src="../../../assets/bg.svg" />
+      </div>
+      <div class="login-content">
+        <form action="index.html">
+          <img src="../../../assets/avatar.svg" />
+          <h3 class="title">Login</h3>
+          <div class="input-div one">
+            <div class="i">
+              <i class="fas fa-user"></i>
+            </div>
+            <div class="div">
+              <input type="text" class="input" placeholder="Email"/>
+            </div>
           </div>
-          <h2 style="text-align: center; color: #537adf;"><b>Login</b></h2>
-        </header>
-        <section class="main-content">
-          <form action="">
-            <input type="email" placeholder="Email" />
-
-            <div class="line"></div>
-            <input type="password" placeholder="Password" />
-            <button>Login</button>
-          </form>
-        </section>
-        <footer>
-          <p>
-            <a href="/forgot-password" title="Forgot Password"
-              >Forgot Password?</a
-            >
-          </p>
-          <p><a href="/register" title="Register">Register</a></p>
-        </footer>
-      </section>
-    </section>
+          <div class="input-div pass">
+            <div class="i">
+              <i class="fas fa-lock"></i>
+            </div>
+            <div class="div">
+              <input type="password" class="input" placeholder="Password"/>
+            </div>
+          </div>
+          <a href="/forgot-password">Forgot Password?</a>
+          <input type="submit" class="btn" value="Login" />
+        </form>
+      </div>
+    </div>
   </body>
 </html>
